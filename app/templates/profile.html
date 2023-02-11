@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class = "groupA">
+    <img src="{{ url_for("static", filename='my-picture.jpg')}}" alt ="Picture for Alyssa"/>
+    <h1> Alyssa Walker </h1>
+    <p> @awalker </p>
+    <p> kingston, Jamaica </p>
+    <p> {{date}}
+</div>
+<div class = "groupB">
+    <P> I am a creative and determined young woman who likes developing new skills to maneuver the different features of the web. 
+        I'm eager to apply the skills learnt to better your organization so please feel free to contact me. </p>
+    <div class = "vals">
+            <div> 10 </div>
+            <div> 172 </div>
+            <div> 220 </div>
+    </div>
+    <div class = "titles">
+            <div> Posts </div>
+            <div> Following </div>
+            <div> Followers</div>
+    </div>
+    <button class ="btn"> Follow </button>
+</div>
+{% endblock %}

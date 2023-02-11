@@ -1,3 +1,77 @@
 body {
     padding-top: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 600px;
+}
+
+.groupA{
+    background-color: palevioletred;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.groupA p{
+    margin-top: -10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.groupB {
+    text-align: center;
+    background-color: pink;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.groupB p{
+    font-size: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    color: purple;
+}
+
+.vals{
+    display: flex;
+    flex-direction: row;
+    padding-left: 192px;
+}
+
+.vals div{
+    margin-top: 20px;
+    padding-right: 60px;
+    font-weight: 700;
+}
+
+.titles{
+    display: flex;
+    flex-direction: row;
+    padding-left: 182px;
+}
+
+.titles div{
+    padding-right: 29px;
+    color: purple;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 5px;
+    width: 130px;
+    color: pink;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
